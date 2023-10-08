@@ -1,3 +1,3 @@
-hi  chat
-what's up
-is it thursday?
+hi  chat  
+what's up  
+is it thursday?  
