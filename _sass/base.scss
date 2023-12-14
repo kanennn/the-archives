@@ -1,0 +1,50 @@
+$backgroundColor: #444444;
+$bodyColor: #ffffff;
+$bodyFont: courier new, monospace;
+
+body {
+    background-color: black;
+    color: $bodyColor;
+    font-family: $bodyFont;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 175px;
+}
+
+header h1 {
+    font-size: 40px;
+    padding: 80px;
+    text-align: center;
+}
+
+#domain {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#author {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+main {
+    width: 740px;
+    margin: auto;
+}
+
+.list {
+    line-height: 2.5em;
+    font-weight: bold;
+}
+
+section.content {
+    padding-top: 10px;
+    font-size: 27px;
+}

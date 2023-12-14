@@ -1,0 +1,19 @@
+  <!DOCTYPE html>
+  <html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <title>{{ page.title }} - {{ site.title }}</title>
+      <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    </head>
+    <body>
+      <main>
+        <header>
+          <span id="author">{{ page.author }}</span>
+          <span id="domain">{{ page.domain }}</span>
+          <h1>{{page.title}}</h1>
+        </header>
+        <section class="content">{{content}}</section>
+      </main>
+    </body>
+  </html>
