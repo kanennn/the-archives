@@ -44,7 +44,22 @@ main {
     font-weight: bold;
 }
 
+ol {
+    padding-left: 0;
+    line-height: 30pt;
+    list-style-position: inside;
+}
+
 section.content {
     padding-top: 10px;
     font-size: 27px;
+}
+
+a {
+    color: $bodyColor;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
