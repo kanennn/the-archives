@@ -1,10 +1,10 @@
 ---
-layout: default
-title: table of contents
+layout: table-of-contents
 domain: "life: a real thing"
+title: table of contents
+permalink: /:collection/
 author: author
 section: books
-permalink: /:collection/
+#collection: "life-a-real-thing"
+# i put this here for some reason, but i can't remember what purpose it serves, so i will leave it here as a comment for now
 ---
-
-{% include index-list.html collection="life-a-real-thing" %}
