@@ -1,15 +1,19 @@
-  <!DOCTYPE html>
-  <html lang="{{ site.lang | default: "en-US" }}">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta charset="utf-8">
-      <title>{{ page.title }} - {{ site.title }}</title>
-      <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/styles.css' | relative_url }}"
+        />
     </head>
     <body>
-      <main>
-        {% include header.html title=page.title author=page.author domain=page.domain %}
-        <section class="content">{{content}}</section>
-      </main>
+        <main>
+            {% include header.html title=page.title author=page.author
+            domain=page.domain backlink=page.backlink %}
+            <section class="content">{{content}}</section>
+        </main>
     </body>
-  </html>
+</html>

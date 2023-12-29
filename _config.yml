@@ -7,12 +7,12 @@ exclude:
     - LICENSE
     - README.md
 
-collections_dir: _collections
+collections_dir: collections
 
 collections:
-    life-a-real-thing:
+    indexes:
         output: true
-        # permalink: /books/:collection/:title
+        permalink: /:title/
     posts:
         output: true
         permalink: /:categories/:title
