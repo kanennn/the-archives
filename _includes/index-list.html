@@ -1,6 +1,5 @@
 <ol class="list">
-    {% assign pages = site[include.collection] | where_exp: "pages", "pages.path
-    != page.path" | sort: "chapter" %} {% for item in pages %}
+    {% for item in site.categories[include.category] %}
     <li><a href="{{item.url}}">{{item.title}}</a></li>
     {% endfor %}
 </ol>
