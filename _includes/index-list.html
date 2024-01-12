@@ -1,5 +1,6 @@
 <ol class="list">
-    {% for item in site.categories[include.category] %}
+    {% assign items = site.categories[include.category] | sort: "chapter" %} {%
+    for item in items %}
     <li><a href="{{item.url}}">{{item.title}}</a></li>
     {% endfor %}
 </ol>
