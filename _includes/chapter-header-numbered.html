@@ -1,0 +1,10 @@
+<header>
+    <section class="breadcrumbs">
+        <span id="author">{% include author.html -%}</span>
+        <span id="domain"
+            ><a href="{{include.backlink}}">{{ include.domain }}</a></span
+        >
+    </section>
+    <h2 id="chapter-number">chapter {{ include.chapter-number }}</h2>
+    <h1>chapter {{ include.chapter-number }}:<br />{{include.title}}</h1>
+</header>

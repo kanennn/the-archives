@@ -1,0 +1,131 @@
+$backgroundColor: black;
+$bodyColor: white;
+$bodyFont: courier new, monospace;
+
+body::-webkit-scrollbar {
+    // exeperimental
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+}
+
+body {
+    // expirimental
+
+    // hide scrollbar
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+
+    margin: 0;
+    background-color: $backgroundColor;
+    color: $bodyColor;
+    font-family: $bodyFont;
+}
+
+header {
+    font-size: 21px;
+    font-weight: bold;
+    // padding-top: 175px;
+}
+
+header h1 {
+    margin: 0;
+    //margin-top: 10px;
+    padding: 110px;
+    font-size: 40px;
+    //padding: 80px;
+    text-align: center;
+}
+
+section.breadcrumbs {
+    overflow: hidden;
+}
+
+#domain {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#author {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#chapter-number {
+    font-size: 21px;
+    text-align: center;
+}
+
+main {
+    width: 700px;
+    margin: auto;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+
+.list {
+    margin: 0px;
+    line-height: 2.3em;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 1px;
+    line-height: 30pt;
+    list-style-position: inside;
+}
+
+section.content {
+    padding-top: 0px;
+    font-size: 27px;
+}
+
+a {
+    color: $bodyColor;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.chapter h1 {
+    font-size: 35px;
+    margin: 70px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+section.chapter h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+}
+
+section.chapter h3 {
+    font-size: 27px;
+    text-align: center;
+}
+
+section.chapter p {
+    //font-size: 23px;
+    font-size: 21px;
+      
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section.chapter p:first-child {
+    margin-top: 0;
+}
+
+section.chapter p:last-child {
+    margin-bottom: 0;
+}
