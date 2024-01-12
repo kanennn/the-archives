@@ -1,1 +1,3 @@
-i don't know what to do with this yet
+hi  chat  
+what's up  
+is it thursday?  
