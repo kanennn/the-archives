@@ -1,0 +1,5 @@
+-   Use github issues instead of this
+-   Clean up giant yaml in files using templates or layouts or something
+    -   fix permalinks in config
+-   learn how to use github issues/other functions and vscode together
+-   improve homepage/reorganize system for section of books?
