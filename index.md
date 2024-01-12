@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "books"
+title: "index"
 author: "kanen stephens"
-domain: "books"
+domain: "the archives"
 ---
 
 <ol class="list">
