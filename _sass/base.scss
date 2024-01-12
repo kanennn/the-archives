@@ -25,7 +25,7 @@ body {
 header {
     font-size: 21px;
     font-weight: bold;
-    padding-top: 175px;
+    // padding-top: 175px;
 }
 
 header h1 {
@@ -35,6 +35,10 @@ header h1 {
     font-size: 40px;
     //padding: 80px;
     text-align: center;
+}
+
+section.breadcrumbs {
+    overflow: hidden;
 }
 
 #domain {
@@ -51,9 +55,16 @@ header h1 {
     float: left;
 }
 
+#chapter-number {
+    font-size: 21px;
+    text-align: center;
+}
+
 main {
     width: 700px;
     margin: auto;
+    margin-top: 175px;
+    margin-bottom: 175px;
 }
 
 .list {
@@ -104,7 +115,7 @@ section.chapter h3 {
 section.chapter p {
     //font-size: 23px;
     font-size: 21px;
-
+      
     font-weight: bold;
     line-height: 1.5em;
     margin-top: 2em;
