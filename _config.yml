@@ -1,6 +1,6 @@
-url: "kanenstephens.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "archives.kanenstephens.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "kanenstephens" # the name of your site, e.g. ACME Corp.
+title: "the archives" # the name of your site, e.g. ACME Corp.
 author: "kanen stephens"
 
 exclude:
